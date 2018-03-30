@@ -1,11 +1,31 @@
 {
-  "name": "greeter-bot",
+  "name": "discord.js-heroku",
   "version": "1.0.0",
-  "description": "Miku bot",
-  "main": "bot.js",
-  "author": "otan",
+  "description": "An in-depth guide on deploying your Discord.js bot on Heroku",
+  "main": "index.js",
+  "engines": {
+    "node": "8.x",
+    "npm": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otancasmd/miku-bot.git"
+  },
+  "keywords": [
+    "heroku",
+    "discord.js"
+  ],
+  "author": "synicalsyntax",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/otancasmd/miku-bot/issues"
+  },
+  "homepage": "https://github.com/otancasmd/miku-bot#readme",
   "dependencies": {
-    "discord.io": "^2.5.3",
-    "winston": "^2.4.1"
+    "discord.js": "^11.3.0"
   }
 }
