@@ -1,13 +1,11 @@
 {
-  "name": "Test",
-  "description": "Test",
-  "version": "0.0.0",
+  "name": "greeter-bot",
+  "version": "1.0.0",
+  "description": "Miku bot",
   "main": "bot.js",
-  "scripts": {
-    "start": "node bot.js"
-  },
+  "author": "otan",
   "dependencies": {
-    "discord.js": "11.1.0",
-    "request": "2.81.0"
+    "discord.io": "^2.5.3",
+    "winston": "^2.4.1"
   }
 }
