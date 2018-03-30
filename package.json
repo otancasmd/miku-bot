@@ -1,0 +1,11 @@
+{
+  "name": "miku",
+  "version": "1.0.0",
+  "description": "Miku bot",
+  "main": "index.js",
+  "author": "otan",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
